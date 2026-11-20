@@ -5,7 +5,7 @@ venv/
 build/
 dist/
 *.spec.bak
-*.py.bak
+*.py.bak*
 temp/
 *.7z
 *.zip
