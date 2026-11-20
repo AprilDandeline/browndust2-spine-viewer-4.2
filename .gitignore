@@ -1,0 +1,57 @@
+# ===== Python / PyInstaller =====
+__pycache__/
+*.pyc
+venv/
+build/
+dist/
+*.spec.bak
+*.py.bak
+temp/
+*.7z
+*.zip
+
+# ===== Electron / Node =====
+node_modules/
+resources/app/node_modules/
+resources/app/cache/
+dist-portable/
+out/
+
+# ===== 打包产物 / 二进制 =====
+*.exe
+*.dll
+*.pak
+*.bin
+*.dat
+
+# ===== Electron 分发包自带的许可证文件（源码仓库不需要） =====
+SpineViewer-anosu/LICENSE.txt
+SpineViewer-anosu/LICENSE_Electron.txt
+SpineViewer-anosu/LICENSES.chromium.html
+SpineViewer-anosu/vk_swiftshader_icd.json
+
+# ===== 大型二进制资源（不入库） =====
+SpineViewer-anosu/SpineViewer.exe
+SpineViewer-anosu/ffmpeg/
+SpineViewer-anosu/resources/
+SpineViewer-anosu/locales/
+SpineViewer-anosu/chrome_100_percent.pak
+SpineViewer-anosu/chrome_200_percent.pak
+SpineViewer-anosu/resources.pak
+SpineViewer-anosu/snapshot_blob.bin
+SpineViewer-anosu/v8_context_snapshot.bin
+SpineViewer-anosu/icudtl.dat
+SpineViewer-anosu/version
+
+# ===== 本机工具 / 临时 =====
+_tools/
+_share/
+_ref/
+*.bak
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
